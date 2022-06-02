@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
+.user-name,
+.main-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.btn {
+    box-shadow: 3px 4px 0px 0px #899599;    
+    border-radius:5px;
+    border:1px solid #dbdd4a;
+    display:inline-block;
+    cursor:pointer;
+    color:#1f21a6;
+    font-size:17px;
+    padding:7px 25px;
+    text-decoration:none;
+    text-align: center;
+    text-shadow:0px 1px 0px #e1e2ed;    
+}
+.button-conteiner {
+    display: flex;
+    justify-content: center;
+}
+#userName {
+    background:linear-gradient(to bottom, #f6f6f6b4 5%, #636c97a5 100%);
+    background-color:#ededed;
+}
+.menu-button {
+    margin: 1vw;
+    padding: 10px 20px;
+    background:linear-gradient(to bottom, #f8cf2db4 5%, #1231bba5 100%);;
+    font-size: 16px;
+    font-weight: bold;   
+}
+.menu-button:active,
+#clickMe:active {
+    position: relative;
+    top: 1px;
+}
+#clickMe {
+    background-color:rgb(60, 125, 230);
+    background: linear-gradient(to bottom, #f8cf2db4 5%, #1231bba5 100%);;
+    border-radius: 50%;
+    padding: 150px 100px;
+    font-size: 40px;
+}
+#clickMe:hover,
+.menu-button:hover {
+    background: linear-gradient(to bottom, #1231bba5 5%,#f8cf2db4 100%);
+    color: #fac627;
+    text-shadow: 0px 1px 1px #000000;
+}
